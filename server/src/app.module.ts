@@ -16,7 +16,7 @@ import { AuthModule } from './modules/auth/auth.module';
       password: 'Pa@ss136985',
       database: 'chat',
       charset: 'utf8mb4',
-      authLoadEntities: true,
+      autoLoadEntities: true,
       synchronize: true,
     }),
     AuthModule,
